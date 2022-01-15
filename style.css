@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+#full{
+    position: relative;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+   margin-top: 15px;
+}
+#nav a{
+    margin-right: 18px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#nav a.topimage{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-image: url(photo-1494790108377-be9c29b29330.jfif);
+    background-size: cover;
+    
+}
+#mid{ 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 9%;
+    text-align: center;
+}
+#logo{
+    cursor: pointer;
+}
+#search{
+    margin-top: 20px;
+}
+#icon, #voice{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6.9%;
+}
+#icon{
+    left: 31%;
+    color: rgba(0, 0, 0, 0.521);
+}
+#voice{
+    right: 31%;
+    color: blue;
+}
+#searchbar{
+    padding-top: 14px;
+    padding-bottom: 12px;
+    outline: 0;
+    width: 550px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 38px ;
+    padding-right: 38px;
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: rgb(231, 231, 231);
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+.button:hover{
+    border: 1px solid black;
+}
+#links{
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
